@@ -1,0 +1,65 @@
+/* IAT 339 LAB 2 CSS
+Dro Bertoia, 301281348
+
+Task 1-5 resources were learned in lab, 6 is cited below it
+
+*/
+
+
+/* Task 1 */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2rem;
+
+}
+ /* Task 2 */
+section{
+    padding: 5rem 1rem;
+}
+
+/*Task 5*/
+p{
+    max-width: 25rem;
+}
+
+/* Task 6 */
+a{
+    color: rgb(255, 133, 51);
+    transition: color 1s;
+}
+
+/* Task 3 */
+a:active, a:hover, a:focus{
+    color: rgb(255, 51, 204);
+    text-decoration:wavy;
+}
+
+/* Task 4 */
+img:active, img:hover, img:focus{
+    border: 5px solid red;
+}
+
+
+/* Task 6*/
+input{
+    display: block;
+    color:rgb(136, 55, 8);
+    font-weight: bold;
+    font-size:larger;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    background: rgb(204, 204, 255);
+}
+
+label{
+    font-weight: lighter;
+    font-size:medium;
+    color: rgb(16, 111, 114);
+}
+
+input:active, input:hover, input:focus{
+    color: rgb(16, 111, 114);
+}
+
+/* Task 6 resources taken from: https://learn.shayhowe.com/html-css/building-forms/ */
